@@ -1,4 +1,3 @@
-# We need a decent ubuntu dist
 sudo: required
 dist: xenial
 
@@ -34,7 +33,7 @@ script:
   - test/cpp-test
 
 after_success:
-  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
+  - coveralls --root .. -E ".external." -E ".CMakeFiles." -E ".test/..cpp.*"
 
 notifications:
   email: false
