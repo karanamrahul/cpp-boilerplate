@@ -3,8 +3,8 @@ UML : https://drive.google.com/file/d/1dRxE6vZaYizPvffoMOm5mnHzKYgH5zbi/view?usp
 
 # C++ Boilerplate
 
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://app.travis-ci.com/karanamrahul/cpp-boilerplate.svg?branch=karanamrahul-patch-1)](https://app.travis-ci.com/karanamrahul/cpp-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/karanamrahul/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/karanamrahul/cpp-boilerplate?branch=master)
 ---
 
 
