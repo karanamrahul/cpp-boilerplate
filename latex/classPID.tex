@@ -1,0 +1,113 @@
+\hypertarget{classPID}{}\section{P\+ID Class Reference}
+\label{classPID}\index{P\+ID@{P\+ID}}
+
+
+\hyperlink{classPID}{P\+ID} class with private gain variables and public compute method.  
+
+
+
+
+{\ttfamily \#include $<$P\+I\+D.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPID_a0311b6f7de348499ce24e53ba353514a}\label{classPID_a0311b6f7de348499ce24e53ba353514a}} 
+\hyperlink{classPID_a0311b6f7de348499ce24e53ba353514a}{P\+ID} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for new \hyperlink{classPID}{P\+ID} object. \end{DoxyCompactList}\item 
+\hyperlink{classPID_ab085f63cbd5e30a369b7388677d5819b}{P\+ID} (double kp, double ki, double kd, double period)
+\begin{DoxyCompactList}\small\item\em Parameterized constuctor for new \hyperlink{classPID}{P\+ID} object. \end{DoxyCompactList}\item 
+double \hyperlink{classPID_a328cfbe7bb1be00321d013d18c969c0b}{compute\+P\+ID} (double actual, double desired)
+\begin{DoxyCompactList}\small\item\em Method to drive the output to the desired value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPID_ab7d389fc5b88d881bc25f5dafd360441}\label{classPID_ab7d389fc5b88d881bc25f5dafd360441}} 
+\hyperlink{classPID_ab7d389fc5b88d881bc25f5dafd360441}{$\sim$\+P\+ID} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classPID}{P\+ID} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classPID}{P\+ID} class with private gain variables and public compute method. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em kp} & -\/ Proportional Gain \\
+\hline
+{\em ki} & -\/ Integral Gain \\
+\hline
+{\em kd} & -\/ Derivative Gain \\
+\hline
+{\em period} & -\/ Total Time \\
+\hline
+{\em prev\+\_\+error} & -\/ Error of the previous iteration \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPID_ab085f63cbd5e30a369b7388677d5819b}\label{classPID_ab085f63cbd5e30a369b7388677d5819b}} 
+\index{P\+ID@{P\+ID}!P\+ID@{P\+ID}}
+\index{P\+ID@{P\+ID}!P\+ID@{P\+ID}}
+\subsubsection{\texorpdfstring{P\+I\+D()}{PID()}}
+{\footnotesize\ttfamily P\+I\+D\+::\+P\+ID (\begin{DoxyParamCaption}\item[{double}]{kp,  }\item[{double}]{ki,  }\item[{double}]{kd,  }\item[{double}]{period }\end{DoxyParamCaption})}
+
+
+
+Parameterized constuctor for new \hyperlink{classPID}{P\+ID} object. 
+
+This constructor has the inputs of kp, ki, kd and period. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em kp} & -\/ Proportional Constant \\
+\hline
+\mbox{\tt in}  & {\em ki} & -\/ Integral Constant \\
+\hline
+\mbox{\tt in}  & {\em kd} & -\/ Derivative Constant \\
+\hline
+\mbox{\tt in}  & {\em period} & -\/ Time Period\\
+\hline
+ & {\em kp} & -\/ Proportional Gain \\
+\hline
+ & {\em ki} & -\/ Integral Gain \\
+\hline
+ & {\em kd} & -\/ Derivative Gain \\
+\hline
+ & {\em period} & -\/ Total Time \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPID_a328cfbe7bb1be00321d013d18c969c0b}\label{classPID_a328cfbe7bb1be00321d013d18c969c0b}} 
+\index{P\+ID@{P\+ID}!compute\+P\+ID@{compute\+P\+ID}}
+\index{compute\+P\+ID@{compute\+P\+ID}!P\+ID@{P\+ID}}
+\subsubsection{\texorpdfstring{compute\+P\+I\+D()}{computePID()}}
+{\footnotesize\ttfamily double P\+I\+D\+::compute\+P\+ID (\begin{DoxyParamCaption}\item[{double}]{actual,  }\item[{double}]{desired }\end{DoxyParamCaption})}
+
+
+
+Method to drive the output to the desired value. 
+
+This method will compute the actual value given the desired value. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em actual} & -\/ Actual Value \\
+\hline
+\mbox{\tt in}  & {\em desired} & -\/ Target Setpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em actual} & -\/ Actual Value \\
+\hline
+{\em desired} & -\/ Desired Value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{PID_8hpp}{P\+I\+D.\+hpp}\item 
+app/\hyperlink{PID_8cpp}{P\+I\+D.\+cpp}\end{DoxyCompactItemize}
