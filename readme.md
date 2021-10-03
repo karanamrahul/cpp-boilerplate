@@ -21,10 +21,15 @@ Navigator - Pooja Kabra
 
 ## Overview
 
-Simple starter C++ project with:
+This repository is dedicated to the implementation of a simple PID Controller for a mobile robot using the C++11/14 language features.
+The project is implemented using standard Software Development practices such as Object Oriented Programming and Pair Programming.
+Continuous integration service tool Travis CI and Web based code coverage service tool Coveralls were used in the development process.
+Tools such as Cppcheck and Cpplint were also used for ensuring a clean development process.
 
-- cmake
-- googletest
+# TO DO
+
+Update Readme and add Doxygen Documentation - Resolved.
+
 
 ## Standard install via command-line
 ```
