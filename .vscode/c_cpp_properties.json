@@ -17,23 +17,24 @@
                 "/Library/Frameworks"
             ],
             "intelliSenseMode": "macos-clang-x64",
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++98"
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
         },
         {
             "name": "Linux",
             "includePath": [
-                "/usr/include"
+                "/usr/include",
+                "${workspaceFolder}/include"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
             "intelliSenseMode": "linux-gcc-x64",
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++98"
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
         },
         {
             "name": "Win32",
@@ -45,9 +46,9 @@
                 "databaseFilename": ""
             },
             "intelliSenseMode": "windows-msvc-x64",
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++98"
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
         }
     ],
     "version": 4

@@ -7,9 +7,17 @@ UML : https://drive.google.com/file/d/1dRxE6vZaYizPvffoMOm5mnHzKYgH5zbi/view?usp
 [![Coverage Status](https://coveralls.io/repos/github/karanamrahul/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/karanamrahul/cpp-boilerplate?branch=master)
 ---
 
+# Authors
 
-Driver : Karanam Rahul
-Navigator : Robert Vandemark
+Part 1 :
+
+Driver - Karanam Rahul
+Navigator - Robert Vandemark
+
+Part 2 :
+
+Driver - Aditya Jadhav
+Navigator - Pooja Kabra
 
 ## Overview
 
